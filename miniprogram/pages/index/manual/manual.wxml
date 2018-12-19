@@ -1,0 +1,12 @@
+<!--miniprogram/pages/index/manual/manual.wxml-->
+<text>-----等待后期添加，敬请期待-----\n</text>
+<text>1、后期尝试添加听写比赛，方便全班听写（考虑加群，出成绩单）\n</text>
+<text>2、会不定期更新小程序版本，如果用户想更新，需要在微信中删除后重新加载，否则只能是老版本\n</text>
+<text>3、不收取学生学习时费用\n</text>
+
+<text>欢迎合作交流  QQ：2754357188\n</text>
+
+<view>
+<view>联系微信号:lengkujiaai</view>
+   <image src="../../../resources/image/QRcode.jpg" style='width:250rpx;height:250rpx'></image>
+</view>

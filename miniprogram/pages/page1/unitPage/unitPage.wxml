@@ -1,0 +1,29 @@
+<!--miniprogram/pages/page1/unitPage/unitPage.wxml-->
+<!--block wx:for-items="{{unitKind}}" wx:key="{{index}}">
+    <view  id="{{item.id}}" >{{item}}</view>
+</block-->
+<view class="page-section" class="weui-cells weui-cells_after-title">
+ <label class="weui-cell"> 
+    <navigator  url="./pages/newWord/newWord?unitId={{unitId}}">
+     <view  class="weui-cell__bd">生词列表</view>
+    </navigator>
+  </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell">
+   <navigator url="./pages/recallChinese/recallChinese?unitId={{unitId}}">
+     <view  class="weui-cell__bd">回忆中文</view>
+   </navigator>
+ </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell">
+   <navigator url="./pages/recallEnglish/recallEnglish?unitId={{unitId}}">
+     <view  class="weui-cell__bd">回忆英文</view>
+   </navigator>
+ </label>
+</view>
+<view>
+  <button class="btn" bindtap='preUnit'>上一单元</button>
+  <button class="btn" bindtap='nextUnit'>下一单元</button>
+</view>

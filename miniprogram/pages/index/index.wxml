@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 帮助中心 -->
+  <view class="uploader">
+    <navigator url="./manual/manual" open-type="navigate" class="uploader-text">
+      <text>帮助中心</text>
+    </navigator>
+  </view>
+</view>

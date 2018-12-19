@@ -1,0 +1,12 @@
+<!--miniprogram/pages/page1/unitPage/pages/recall/recall.wxml-->
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell" wx:for="{{pepUnitList}}" wx:key='index'>
+    <view class="weui-cell__bd" wx:if="{{lookupIndex[index]}}">{{item.en}}: {{item.cn}}</view>
+    <view class="weui-cell__bd" wx:if="{{!lookupIndex[index]}}">{{item.en}}:</view>    
+    <button class='btn' bindtap='lookup' id="{{index}}">查看</button>
+  </label>
+   <button class='btn2' bindtap='restart'>重新开始</button>
+</view>
+
+
+

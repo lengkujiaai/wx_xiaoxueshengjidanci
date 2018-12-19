@@ -1,0 +1,64 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "resources/image",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page1/setPage/setPage",
+    "pages/page1/unitPage/unitPage",
+    "pages/page1/unitPage/pages/newWord/newWord",
+    "pages/page1/unitPage/pages/pronunciation/pronunciation",
+    "pages/page1/unitPage/pages/spell/spell",
+    "pages/page1/unitPage/pages/memory/memory",
+    "pages/index/manual/manual",
+    "pages/page1/unitPage/pages/recallChinese/recallChinese",
+    "pages/page1/unitPage/pages/recallEnglish/recallEnglish"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小学英语",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "玩单词",
+        "pagePath": "pages/page1/page1",
+        "iconPath": "resources/image/icon_API.png",
+        "selectedIconPath": "resources/image/icon_API_HL.png"
+      },
+      {
+        "text": "生词本",
+        "pagePath": "pages/page2/page2",
+        "iconPath": "resources/image/icon_API.png",
+        "selectedIconPath": "resources/image/icon_API_HL.png"
+      },
+      {
+        "text": "成绩单",
+        "pagePath": "pages/page3/page3",
+        "iconPath": "resources/image/icon_API.png",
+        "selectedIconPath": "resources/image/icon_API_HL.png"
+      },
+      {
+        "text": "关于我们",
+        "pagePath": "pages/index/index",
+        "iconPath": "resources/image/icon_API.png",
+        "selectedIconPath": "resources/image/icon_API_HL.png"
+      }
+    ]
+  }
+}

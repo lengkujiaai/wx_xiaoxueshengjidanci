@@ -1,0 +1,8 @@
+<!--miniprogram/pages/page1/unitPage/pages/newWord/newWord.wxml-->
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell " wx:for="{{pepUnitList}}" wx:key="{{item.value}}">
+    <view class="weui-cell__bd">{{item.en}} :{{item.cn}}</view>
+  </label>
+</view>
+
+ 

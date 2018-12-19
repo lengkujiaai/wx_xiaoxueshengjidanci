@@ -1,0 +1,2 @@
+/* miniprogram/pages/page1/unitPage/pages/newWord/newWord.wxss */
+@import "../../../../lib/weui.wxss";

@@ -1,0 +1,12 @@
+<!--miniprogram/pages/page1/page1.wxml-->
+
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell " wx:for="{{pepUnitList}}" wx:key="{{item.value}}">
+    <navigator url="./unitPage/unitPage?unitId={{index}}" >
+      <view class="weui-cell__bd">{{item}}</view>
+    </navigator>
+  </label>
+  <navigator  class="weui-cell " url="./setPage/setPage?defaultUnit={{defaultUnit}}">
+     <button class="btn" data-idx="{{index}}">设置</button>
+  </navigator>
+</view>
